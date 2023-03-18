@@ -36,6 +36,7 @@ brew install chezmoi
  ## For committing to chezmoi do
 
  ```
+  chezmoi add <filename>
   chezmoi -v apply
   chezmoi cd
   git add .
