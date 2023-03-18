@@ -5,6 +5,10 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "romkatv/powerlevel10k"
 tap "zkondor/dist"
+# Platform built on V8 to build network applications
+brew "node"
+# Secure and free password manager for all of your devices
+brew "bitwarden-cli"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 # Dependency manager for Cocoa projects
@@ -13,8 +17,6 @@ brew "cocoapods"
 brew "docker"
 # Isolated development environments using Docker
 brew "docker-compose"
-# Platform built on V8 to build network applications
-brew "node"
 # Firebase command-line tools
 brew "firebase-cli"
 # Command-line tools for fly.io services
