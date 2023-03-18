@@ -43,6 +43,11 @@ brew install chezmoi
   git push origin
  ```
 
+## For updating brewfile
+
+```
+brew bundle dump --describe
+```
 
 
 ## TODO List
