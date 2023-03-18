@@ -27,6 +27,12 @@ brew install chezmoi
  chezmoi init --apply zddarova
  ```
 
+ 6. Install from brew
+
+ ```
+ brew bundle --file Brewfile
+ ```
+
  ## For committing to chezmoi do
 
  ```
