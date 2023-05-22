@@ -36,6 +36,11 @@ brew install chezmoi
  ```
  brew bundle --file Brewfile
  ```
+ 
+ 8. Install Xcode from Apple website
+```
+https://developer.apple.com/download/all/?q=Xcode
+```
 
  ## For committing to chezmoi do
 
