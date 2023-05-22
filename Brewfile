@@ -27,6 +27,8 @@ brew "neovim"
 brew "postgresql@14"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# Lightweight BitTorrent client
+brew "transmission-cli"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Additional completion definitions for zsh
@@ -35,10 +37,8 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
-# Android SDK component
-cask "android-platform-tools"
 # Tools for building Android applications
-cask "android-studio"
+cask "android-studio-preview-canary"
 # Chromium based browser
 cask "arc"
 # Video calls designed for energy, ideas and action
@@ -49,32 +49,20 @@ cask "cron"
 cask "dbeaver-community"
 # Voice and text chat software
 cask "discord"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Flip clock screensaver
 cask "fliqlo"
 # UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
+# Web browser
+cask "google-chrome"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Free and open-source media player
 cask "iina"
-# Java IDE by JetBrains
-cask "intellij-idea"
-# Open source implementation of Microsoft's .NET Framework
-cask "mono-mdk-for-visual-studio"
-# Utility to toggle dark mode
-cask "nightowl"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Used to access context-specific actions when text is selected
-cask "popclip"
 # Collaboration platform for API development
 cask "postman"
-# IDE for professional Python development
-cask "pycharm"
-# Peer to peer Bitorrent client
-cask "qbittorrent"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -83,14 +71,14 @@ cask "rectangle"
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Create, edit, browse SQLite databases
-cask "sqlitestudio"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# To-do & task list manager
+cask "ticktick"
+# Open-source BitTorrent client
+cask "transmission"
 # Calling and messaging application focusing on security
 cask "viber"
-# Integrated development environment
-cask "visual-studio"
 # Open-source code editor
 cask "visual-studio-code"
 # Rust-based terminal
