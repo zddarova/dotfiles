@@ -17,18 +17,22 @@ xcode-select --install
 git clone https://github.com/zddarova/dotfiles.git
 ```
 
-4. Install chezmoi
+4. Install Oh my zsh
+```zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+5. Install chezmoi
 ```
 brew install chezmoi
 ```
 
-5. Setup chezmoi 
+6. Setup chezmoi 
  ```
  chezmoi init --apply zddarova
  ```
 
- 6. Install from brew
-
+7. Install from brew
  ```
  brew bundle --file Brewfile
  ```
