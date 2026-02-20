@@ -204,9 +204,7 @@
     // =========================
     "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
     "cursor.composer.shouldChimeAfterChatFinishes": true,
-    "cursor.cpp.disabledLanguages": [
-        "plaintext"
-    ],
+    "cursor.cpp.disabledLanguages": [],
     // =========================
     // Extensions & Appearance
     // =========================
