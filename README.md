@@ -28,3 +28,9 @@ brew bundle dump --file=~/projects/dotfiles/Brewfile --force
 ```bash
 brew bundle install --file=~/projects/dotfiles/Brewfile
 ```
+
+### Install macOS settings
+```bash
+chmod +x macos_settings.sh
+./macos_settings.sh
+```
