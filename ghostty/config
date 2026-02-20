@@ -4,10 +4,6 @@ theme=Catppuccin Mocha
 font-family = "JetBrains Mono"
 font-size = 13
 
-# Cursor
-cursor-style = bar
-cursor-style-blink = false
-
 # Window
 window-padding-x = 12
 window-padding-y = 12
