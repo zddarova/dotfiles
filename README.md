@@ -11,3 +11,10 @@ ln -s ~/projects/dotfiles/.zshrc ~/.zshrc
 ```bash
 ls -la ~/.zshrc ~/.gitconfig
 ```
+
+### Install
+```bash
+chmod +x install.sh
+./install.sh
+source ~/.zshrc
+```
