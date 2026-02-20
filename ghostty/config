@@ -1,1 +1,25 @@
 theme=Catppuccin Mocha
+
+# Font
+font-family = "JetBrains Mono"
+font-size = 13
+
+# Cursor
+cursor-style = bar
+cursor-style-blink = false
+
+# Window
+window-padding-x = 12
+window-padding-y = 12
+
+# Scrollback (default is ~32MB; 64MB for longer sessions)
+scrollback-limit = 67108864
+
+# Copy selection to clipboard on select (macOS default: true)
+copy-on-select = true
+
+# Optional: slight transparency (uncomment to enable)
+# background-opacity = 0.95
+
+# Optional: shell integration for better prompt detection, click-to-move, etc.
+# shell-integration = enabled
