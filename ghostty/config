@@ -18,6 +18,9 @@ scrollback-limit = 67108864
 # Copy selection to clipboard on select (macOS default: true)
 copy-on-select = true
 
+# macOS option as alt
+macos-option-as-alt = true
+
 # Optional: slight transparency (uncomment to enable)
 # background-opacity = 0.95
 

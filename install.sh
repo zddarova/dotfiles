@@ -9,3 +9,6 @@ ln -sf $DOTFILES/.gitconfig ~/.gitconfig
 ln -sf ~/projects/dotfiles/vscode/settings.json ~/Library/Application\ Support/Cursor/User/settings.json
 # Link Ghostty config
 ln -sf ~/projects/dotfiles/ghostty/config ~/.config/ghostty/config
+# Link Tmux config
+ln -sf ~/projects/dotfiles/.tmux.conf ~/.tmux.conf
+
