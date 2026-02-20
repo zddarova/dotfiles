@@ -1,0 +1,219 @@
+{
+    // =========================
+    // General & Window
+    // =========================
+    "application.shellEnvironmentResolutionTimeout": 15,
+    "window.commandCenter": true,
+    "window.doubleClickIconToClose": true,
+    "window.newWindowProfile": "Default",
+    "window.title": "${activeEditorMedium}",
+    "window.titleSeparator": " | ",
+    "window.zoomLevel": 1,
+    // =========================
+    // Security
+    // =========================
+    "security.workspace.trust.untrustedFiles": "open",
+    // =========================
+    // Workbench (UI/UX)
+    // =========================
+    "workbench.colorCustomizations": {},
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabActionLocation": "left",
+    "workbench.editor.wrapTabs": true,
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": true,
+    "workbench.tips.enabled": true,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.indent": 8,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.view.alwaysShowHeaderActions": true,
+    // =========================
+    // Editor (global)
+    // =========================
+    "editor.accessibilitySupport": "off",
+    "editor.codeLens": false,
+    "editor.colorDecorators": false,
+    "editor.defaultFormatter": null,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.guides.indentation": false,
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.hover.enabled": true,
+    "editor.lightbulb.enabled": "off",
+    "editor.lineNumbers": "relative",
+    "editor.matchBrackets": "never",
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.parameterHints.enabled": true,
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "none",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.selectionHighlight": false,
+    "editor.showFoldingControls": "never",
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyTabStops": true,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.tabCompletion": "on",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    // =========================
+    // Language-specific
+    // =========================
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            100
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets"
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "editor.formatOnSave": "always",
+            "source.fixAll": "always",
+            "source.fixAll.ruff": "always",
+            "source.organizeImports": "always",
+            "source.sortImports": "always"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code"
+    },
+    // =========================
+    // Files & Explorer
+    // =========================
+    "explorer.autoRevealExclude": {
+        "**.freezed.dart": true,
+        "**.g.dart": true
+    },
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.badges": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
+    },
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "**/.venv/**": true
+    },
+    // =========================
+    // Dart & Flutter
+    // =========================
+    "arb-editor.suppressedWarnings": [
+        "metadata_for_missing_key",
+        "missing_metadata_for_key",
+        "invalid_placeholder",
+        "placeholder_without_metadata",
+        "missing_placeholder_with_metadata",
+        "missing_messages_from_template"
+    ],
+    "dart.completeFunctionCalls": true,
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "dart.experimentalRefactors": true,
+    "dart.flutterGenerateLocalizationsOnSave": "never",
+    "dart.flutterShowEmulators": "always",
+    "dart.hotReloadOnSave": "allIfDirty",
+    "dart.hotReloadProgress": "statusBar",
+    "dart.lineLength": 100,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "dart.renameFilesWithClasses": "prompt",
+    "dart.showTodos": false,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    // =========================
+    // Git & VCS
+    // =========================
+    "git.allowForcePush": true,
+    "git.autofetch": true,
+    "git.confirmForcePush": true,
+    "git.confirmSync": false,
+    "git.decorations.enabled": true,
+    "git.enableSmartCommit": false,
+    "git.openRepositoryInParentFolders": "never",
+    "git.suggestSmartCommit": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "githubPullRequests.pullBranch": "never",
+    // =========================
+    // Debugging
+    // =========================
+    "debug.inlineValues": "on",
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.showSubSessionsInToolBar": true,
+    "debug.toolBarLocation": "docked",
+    "debugpy.debugJustMyCode": false,
+    // =========================
+    // Terminal
+    // =========================
+    "terminal.integrated.stickyScroll.enabled": true,
+    "terminal.integrated.tabs.hideCondition": "never",
+    // =========================
+    // Problems & Testing
+    // =========================
+    "problems.defaultViewMode": "table",
+    "problems.decorations.enabled": true,
+    "problems.showCurrentInStatus": true,
+    "testing.coverageBarThresholds": {
+        "red": 0,
+        "yellow": 60,
+        "green": 90
+    },
+    // =========================
+    // Linting & Tools
+    // =========================
+    "cSpell.diagnosticLevel": "Hint",
+    "json.schemaDownload.enable": true,
+    "makefile.configureOnOpen": true,
+    "pdf-preview.default.scale": "page-fit",
+    "pgsql.enableQueryHistoryCapture": true,
+    "python.languageServer": "None",
+    "ruff.enable": true,
+    "ruff.organizeImports": true,
+    // =========================
+    // Cursor
+    // =========================
+    "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ],
+    // =========================
+    // Extensions & Appearance
+    // =========================
+    "catppuccin.extraBordersEnabled": true,
+    "catppuccin-icons.hidesExplorerArrows": true,
+    "errorLens.statusBarColorsEnabled": true,
+    "extensions.ignoreRecommendations": true,
+    "vim.easymotion": true,
+    "vim.smartRelativeLine": true
+}
