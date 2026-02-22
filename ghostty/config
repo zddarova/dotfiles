@@ -1,4 +1,4 @@
-theme=Catppuccin Mocha
+theme = dark:Catppuccin Mocha,light:Catppuccin Latte
 
 # Font
 font-family = "JetBrains Mono"
