@@ -213,5 +213,8 @@
     "errorLens.statusBarColorsEnabled": true,
     "extensions.ignoreRecommendations": true,
     "vim.easymotion": true,
-    "vim.smartRelativeLine": true
+    "vim.smartRelativeLine": true,
+    "dart.flutterSdkPath": "/Users/andrii/fvm/versions/3.38.5",
+    "workbench.preferredLightColorTheme": "Catppuccin Latte",
+    "workbench.preferredDarkColorTheme": "Catppuccin Mocha"
 }
