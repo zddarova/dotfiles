@@ -21,4 +21,4 @@ macos-option-as-alt = true
 # background-opacity = 0.95
 
 # Optional: shell integration for better prompt detection, click-to-move, etc.
-# shell-integration = enabled
+shell-integration = detect
