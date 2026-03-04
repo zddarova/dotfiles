@@ -8,3 +8,4 @@ eval "$(starship init zsh)"
 export PATH="$PATH:/Users/andrii/.lmstudio/bin"
 # End of LM Studio CLI section
 
+export PATH="$PATH":"$HOME/.pub-cache/bin"
