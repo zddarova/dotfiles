@@ -59,7 +59,7 @@
     "editor.selectionHighlight": false,
     "editor.showFoldingControls": "never",
     "editor.stickyTabStops": true,
-    "editor.suggestOnTriggerCharacters": false,
+    "editor.suggestOnTriggerCharacters": true,
     "editor.tabCompletion": "on",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -221,5 +221,7 @@
     "workbench.preferredLightColorTheme": "Catppuccin Latte",
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
     "explorer.confirmPasteNative": false,
-    "cursor.composer.usageSummaryDisplay": "always"
+    "cursor.composer.usageSummaryDisplay": "always",
+    "claudeCode.initialPermissionMode": "acceptEdits",
+    "claudeCode.selectedModel": "opus"
 }
