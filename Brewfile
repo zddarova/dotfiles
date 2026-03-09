@@ -2,6 +2,7 @@ tap "anomalyco/tap"
 tap "leoafarias/fvm"
 brew "ruby"
 brew "cocoapods"
+brew "colima", restart_service: :changed
 brew "docker-compose"
 brew "firebase-cli"
 brew "glances"
