@@ -9,3 +9,8 @@ export PATH="$PATH:/Users/andrii/.lmstudio/bin"
 # End of LM Studio CLI section
 
 export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+# Disable Homebrew hints
+export HOMEBREW_NO_ENV_HINTS=1
+# Run auto-update less often (e.g. every 7 days)
+export HOMEBREW_AUTO_UPDATE_SECS=$((7 * 24 * 60 * 60))
