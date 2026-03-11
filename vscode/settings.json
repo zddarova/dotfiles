@@ -147,8 +147,7 @@
     "dart.experimentalRefactors": true,
     "dart.flutterGenerateLocalizationsOnSave": "never",
     "dart.flutterShowEmulators": "always",
-    "dart.hotReloadOnSave": "allIfDirty",
-    "dart.hotReloadProgress": "statusBar",
+    "dart.hotReloadOnSave": "all",
     "dart.lineLength": 100,
     "dart.previewFlutterUiGuidesCustomTracking": true,
     "dart.renameFilesWithClasses": "prompt",
@@ -223,5 +222,8 @@
     "explorer.confirmPasteNative": false,
     "cursor.composer.usageSummaryDisplay": "always",
     "claudeCode.initialPermissionMode": "acceptEdits",
-    "claudeCode.selectedModel": "opus"
+    "claudeCode.selectedModel": "opus",
+    "svg.preview.mode": "svg",
+    "dart.flutterHotReloadOnSave": "all",
+    "dart.previewHotReloadOnSaveWatcher": true
 }
