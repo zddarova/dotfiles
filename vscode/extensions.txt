@@ -1,3 +1,4 @@
+anthropic.claude-code
 anysphere.cursorpyright
 astral-sh.ty
 catppuccin.catppuccin-vsc
@@ -5,10 +6,13 @@ catppuccin.catppuccin-vsc-icons
 charliermarsh.ruff
 dart-code.dart-code
 dart-code.flutter
+databricks.neon-local-connect
 github.vscode-pull-request-github
 google.arb-editor
+jock.svg
 ms-azuretools.vscode-containers
 ms-azuretools.vscode-docker
+ms-ossdata.vscode-pgsql
 ms-python.debugpy
 ms-python.python
 ms-vscode.makefile-tools
